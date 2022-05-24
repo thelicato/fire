@@ -1,8 +1,10 @@
 <h1 align="center">
   <br>
   <a href=""><img src="logo.png" alt="" width="300px;"></a>
-  <br><b>fi</b>lter <b>re</b>solved<br>
 </h1>
+<p align="center">
+    <b>fi</b>lter <b>re</b>solved
+<p>
 
 <p align="center">
   <a href="https://github.com/thelicato/fire/blob/main/README.md"><img src="https://img.shields.io/badge/Documentation-complete-green.svg?style=flat"></a>
@@ -13,7 +15,7 @@
 <!-- omit in toc -->
 ## Table of Contents
 - [🛸 Overview](#-overview)
-- [🛸 Usage](#-usage)
+- [👾 Usage](#-usage)
   - [Normal execution](#normal-execution)
   - [Verbose execution](#verbose-execution)
   - [Docker execution](#docker-execution)
@@ -24,12 +26,12 @@
 
 **fire** is a simple tool meant to work in a pipeline of other scripts. It takes domains on ``stdin`` and outputs them on ``stdout`` if they resolve. The inspiration for this work is the ``filter-resolved`` Golang code in [this repository](https://github.com/tomnomnom/hacks/tree/master/filter-resolved). That repo is not updated in a long time and I thought that it was time to switch to the new Golang paradigm of modules. I also added a ``Dockerfile``.
 
-## 🛸 Usage
+## 👾 Usage
 
 **Available Options:**
 ```
-  c     The concurrency of the execution (default=20)
-  v     Set this flag to run fire in VERBOSE mode
+  -c     The concurrency of the execution (default=20)
+  -v     Set this flag to run fire in VERBOSE mode
 ```
 
 ### Normal execution
