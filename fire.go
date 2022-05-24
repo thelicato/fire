@@ -39,15 +39,12 @@ func printBanner(verbose bool) {
 
 func worker(wg *sync.WaitGroup, jobs chan string) {
 	defer wg.Done()
-
-	colorGreenStart := "\033[32m"
-	colorGreenStop := "\033[0m"
 	for domain := range jobs {
 		_, err := net.ResolveIPAddr("ip4", domain)
 		if err != nil {
 			continue
 		}
-		fmt.Println(string(colorGreenStart), domain, string(colorGreenStop))
+		fmt.Println(domain)
 	}
 }
 
