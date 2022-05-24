@@ -1,8 +1,13 @@
 name: Create and Publish Docker Image
 
+
+
 on:
-  release:
-    types: [published]
+  push:
+    tags:
+      - 'v*'
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   push_to_registry:
