@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href=""><img src="logo.png" alt="" width="300px;"></a>
+  <a href=""><img src="logo-light-mode.png" alt="" width="300px;"></a>
 </h1>
 <p align="center">
     <b>fi</b>lter <b>re</b>solved
