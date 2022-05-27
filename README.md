@@ -1,6 +1,11 @@
 <h1 align="center">
   <br>
-  <a href=""><img src="logo-light-mode.png" alt="" width="300px;"></a>
+  <picture>
+    <source
+      srcset="https://raw.githubusercontent.com/thelicato/fire/main/logo-dark-mode.png"
+      media="(prefers-color-scheme: dark)">
+    <img src="https://raw.githubusercontent.com/thelicato/fire/main/logo-light-mode.png" alt= "fire" width="300px">
+  </picture>
 </h1>
 <p align="center">
     <b>fi</b>lter <b>re</b>solved
